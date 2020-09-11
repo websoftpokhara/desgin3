@@ -58,7 +58,19 @@
 #bannerarea{
 	margin:15px 0;
 }
-
+.cat-thumbnail{
+	border: 2px solid #ccc;
+	margin-right: 10px;
+}
+.cat-thumbnail img{
+	float: left;
+}
+.cat-thumbnail h3{
+	float: right;
+}
+.slider_banner{
+	overflow: hidden;
+}
 .slider_banner .slide-banner-info .banner-col {
     transform: skew(-40deg);
     -webkit-transform: skew(-40deg);
@@ -95,9 +107,7 @@
 .banner-col a img{
 	width: 100%;
 }
-.catagorythumb{
-	border: 1px solid #ccc;
-}
+
 .titlebox{
 	background: #ccc;
 	margin: 20px 0;
@@ -114,4 +124,26 @@
 	position: relative;
 	display: block;
 	text-align: left;
+}
+.cart-area{
+	background: yellow;
+	position: absolute;
+	top: -24px;
+	width: 100%;
+	text-align: center;
+	padding: 15px 0;
+	border-bottom-right-radius: 30px;
+	border-bottom-left-radius: 30px;
+	z-index: 9999999;
+}
+.cart-area .svg-inline--fa{
+	font-size: 34px;
+}
+.cart-area a{
+	color: #000;
+	text-decoration: none;
+}
+.cart-area h6{
+	margin: 10px 0;
+	font-size: 13px;
 }

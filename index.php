@@ -46,11 +46,19 @@
 		<section id="menu">
 			<div class="container">
 				<div class="row">
-					<div class="col-md-3">
+					<div class="col-md-2">
 						<span style="color: #fff">TOP CATAGORIES</span>
 					</div>
 					<div class="col-md-9">
-						
+						Menu here
+					</div>
+					<div class="col-md-1">
+						<div class="cart-area">
+							<a href="">
+								<i class="fas fa-shopping-cart"></i>
+								<h6>CART</h6>
+							</a>
+						</div>
 					</div>
 				</div>
 			</div>
@@ -80,7 +88,7 @@
 		</section>
 		<section id="bannerarea">
 			
-			<div class="row">
+			
 				<div class="slider_banner">
 		          <div class="slide-banner-info col-md-6" style="float: left;">
 		            <div class="banner-col">
@@ -95,7 +103,7 @@
           			<div class="clearfix"></div>
         		</div>
         	
-        	</div>
+        	
 		</section>
 		<section id="catagoryarea">
 			<div class="container">
@@ -105,31 +113,11 @@
 					</div>
 				</div>
 				<div class="row">
-					<div class="col-md-3">
-						<img src="img/catagory1.jpg" class="img-thumbnail" alt="">
-					</div>
-					<div class="col-md-3">
-						<img src="img/catagory1.jpg" class="img-thumbnail" alt="">
-					</div>
-					<div class="col-md-3">
-						<img src="img/catagory1.jpg" class="img-thumbnail" alt="">
-					</div>
-					<div class="col-md-3">
-						<img src="img/catagory1.jpg" class="img-thumbnail" alt="">
-					</div>
-					<div class="col-md-3">
-						<img src="img/catagory1.jpg" class="img-thumbnail" alt="">
-					</div>
-					<div class="col-md-3">
-						<img src="img/catagory1.jpg" class="img-thumbnail" alt="">
-					</div>
-					<div class="col-md-3">
-						<img src="img/catagory1.jpg" class="img-thumbnail" alt="">
-					</div>
-					<div class="col-md-3">
-						<img src="img/catagory1.jpg" class="img-thumbnail" alt="">
-					</div>
+					<p>Catagory Display here</p>
 				</div>
+					
+					
+				
 			</div>
 		</section>
 
