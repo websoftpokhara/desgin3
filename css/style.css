@@ -1,0 +1,117 @@
+#topheader{
+	background: #029805;
+	padding: 10px 0;
+}
+.left-topheader{
+
+}
+.right-topheader{
+	text-align: right;
+}
+.right-topheader i {
+	color: #014f03 !important;
+}
+#header{
+	background: #036c05;
+	padding: 10px 0;
+}
+.searchbox{
+	text-align: right;
+	padding-top: 20px;
+}
+.searchbox input{
+	border-radius: 30px;
+	background: #fff;
+	height: 40px;
+	width: 80%;
+	padding: 20px 40px;
+	border:none;
+}
+.searchbox button{
+	font-size: 20px;
+	height: 100%;
+	padding: 0 35px;
+	position: absolute;
+	right: 0;
+	text-align: center;
+	top: 5px;
+	width: auto;
+	color: #222;
+	border: none;
+	background-color: transparent;
+
+}
+.logininfo{
+	padding-top: 20px;
+	text-align: right;
+}
+.logininfo .svg-inline--fa {
+	font-size: 40px;
+	color: #fff;
+	float: left;
+	margin-right: 10px;
+}
+#menu{
+	padding: 25px 0;
+	background: #015503;
+}
+#bannerarea{
+	margin:15px 0;
+}
+
+.slider_banner .slide-banner-info .banner-col {
+    transform: skew(-40deg);
+    -webkit-transform: skew(-40deg);
+    -moz-transform: skew(-40deg);
+    -ms-transform: skew(-40deg);
+    -o-transform: skew(-40deg);
+    overflow: hidden;
+    
+}
+.banner-col {
+    position: relative;
+}
+.slider_banner .slide-banner-info .banner-col a {
+    transform: skew(40deg);
+    -webkit-transform: skew(40deg);
+    -moz-transform: skew(40deg);
+    -ms-transform: skew(40deg);
+    -o-transform: skew(40deg);
+    overflow: visible;
+    
+}
+.banner-col a {
+    display: block;
+    position: relative;
+    overflow: hidden;
+}
+
+.slider_banner .slide-banner-info:first-child .banner-col a img {
+    margin-left: 95px;
+}
+.slider_banner .slide-banner-info:nth-child(2) .banner-col a img {
+    margin-left: -95px;
+}
+.banner-col a img{
+	width: 100%;
+}
+.catagorythumb{
+	border: 1px solid #ccc;
+}
+.titlebox{
+	background: #ccc;
+	margin: 20px 0;
+	padding: 10px;
+	border-left: 10px solid #015503;
+}
+
+.logininfo-content{
+	color: #fff;
+	font-size: 13px;
+	font-weight: normal;
+}
+.logininfo-content span{
+	position: relative;
+	display: block;
+	text-align: left;
+}
