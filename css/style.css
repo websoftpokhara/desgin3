@@ -27,6 +27,10 @@
 	padding: 20px 40px;
 	border:none;
 }
+.searchbox input:focus{
+	text-decoration: none;
+	border: none;
+}
 .searchbox button{
 	font-size: 20px;
 	height: 100%;
@@ -52,7 +56,7 @@
 	margin-right: 10px;
 }
 #menu{
-	padding: 25px 0;
+	
 	background: #015503;
 }
 #bannerarea{
@@ -111,7 +115,7 @@
 .titlebox{
 	background: #ccc;
 	margin: 20px 0;
-	padding: 10px;
+	padding: 20px;
 	border-left: 10px solid #015503;
 }
 
@@ -126,9 +130,9 @@
 	text-align: left;
 }
 .cart-area{
-	background: yellow;
+	background: #F9C938;
 	position: absolute;
-	top: -24px;
+	
 	width: 100%;
 	text-align: center;
 	padding: 15px 0;
@@ -146,4 +150,53 @@
 .cart-area h6{
 	margin: 10px 0;
 	font-size: 13px;
+}
+.blog .carousel-indicators {
+	left: 0;
+	top: auto;
+    bottom: -40px;
+
+}
+
+/* The colour of the indicators */
+.blog .carousel-indicators li {
+    background: #a3a3a3;
+    border-radius: 50%;
+    width: 8px;
+    height: 8px;
+}
+
+.blog .carousel-indicators .active {
+background: #707070;
+}
+.indecator .svg-inline--fa{
+	color: #029805;
+	font-size: 22px;
+	padding: 0;
+	margin: 0;
+}
+.top-catagory-btn{
+	background: #F9C938;
+	padding: 20px 0;
+	text-align: center;
+}
+.top-catagory-btn a{
+	text-decoration: none;
+}
+.top-catagory-btn .card-body{
+	border: 1px solid #ccc;
+	top:20px;
+}
+.catagory-listing{
+	width: 100%;
+}
+.catagory-listing ul{
+	width: 100%;
+	padding: 0;
+	margin: 0;
+	list-style: none;
+}
+.catagory-lising ul li {
+	border-bottom: 1px solid #ccc;
+	line-height: 30px;
 }

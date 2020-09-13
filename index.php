@@ -46,10 +46,27 @@
 		<section id="menu">
 			<div class="container">
 				<div class="row">
-					<div class="col-md-2">
+					<div class="col-md-3 top-catagory-btn">
+						<a data-toggle="collapse" href="#multiCollapseExample1" role="button" aria-expanded="false" aria-controls="multiCollapseExample1">
+						<i class="fas fa-list" style="color: #fff; margin-left: 5px;"></i>
 						<span style="color: #fff">TOP CATAGORIES</span>
+						</a>
+						<div style="position: absolute;z-index: 99999">
+							<div class="collapse multi-collapse" id="multiCollapseExample1">
+						      <div class="card card-body">
+						        <div class="catagory-listing">
+						        	<ul>
+						        		<li><a href="">Catagory1</a></li>
+						        		<li><a href="">Catagory2</a></li>
+						        		<li><a href="">Catagory3</a></li>
+						        		<li><a href="">Catagory4</a></li>
+						        	</ul>
+						        </div>
+						      </div>
+	    					</div>
+    					</div>
 					</div>
-					<div class="col-md-9">
+					<div class="col-md-8">
 						Menu here
 					</div>
 					<div class="col-md-1">
@@ -87,17 +104,15 @@
 			</div>
 		</section>
 		<section id="bannerarea">
-			
-			
 				<div class="slider_banner">
 		          <div class="slide-banner-info col-md-6" style="float: left;">
 		            <div class="banner-col">
-		              <a href="#"><img src="https://kulimpoint.websofttechnology.com.my/site/img/banner1.jpg" alt="" class="img-responsive" width="auto" height="auto"></a>
+		              <a href="#"><img src="img/banner/banner1.jpg" alt="" class="img-responsive" width="auto" height="auto"></a>
 		            </div>
 		          </div>
 		          <div class="slide-banner-info col-md-6" style="float: right;">
 		            <div class="banner-col">
-		              <a href="#"><img src="https://kulimpoint.websofttechnology.com.my/site/img/banner2.jpg" alt="" class="img-responsive" width="auto" height="auto"></a>
+		              <a href="#"><img src="img/banner/banner2.jpg" alt="" class="img-responsive" width="auto" height="auto"></a>
 		            </div>
 		          </div>
           			<div class="clearfix"></div>
@@ -107,17 +122,109 @@
 		</section>
 		<section id="catagoryarea">
 			<div class="container">
+					<div class="row titlebox">
+						<div class="col-md-10">
+							LATEST CATAGORIES
+						</div>
+						<div class="col-md-2 indecator">
+							<a class="" href="#blogCarousel" role="button" data-slide="prev">
+								<i class="fas fa-chevron-circle-left"></i>
+							</a>
+							<a class="" href="#blogCarousel" role="button" data-slide="next">
+								<i class="fas fa-chevron-circle-right"></i>
+							</a>
+						</div>
+					</div>
+				<div class="row blog">
+					<div class="col-md-12">
+	                    <div id="blogCarousel" class="carousel slide" data-ride="carousel">
+	                        <!-- Carousel items -->
+	                        <div class="carousel-inner">
+
+	                            <div class="carousel-item active">
+	                                <div class="row">
+	                                    <div class="col-md-3">
+	                                        <a href="#">
+	                                            <img src="http://placehold.it/250x250" alt="Image" style="max-width:100%;">
+	                                        </a>
+	                                    </div>
+	                                    <div class="col-md-3">
+	                                        <a href="#">
+	                                            <img src="http://placehold.it/250x250" alt="Image" style="max-width:100%;">
+	                                        </a>
+	                                    </div>
+	                                    <div class="col-md-3">
+	                                        <a href="#">
+	                                            <img src="http://placehold.it/250x250" alt="Image" style="max-width:100%;">
+	                                        </a>
+	                                    </div>
+	                                    <div class="col-md-3">
+	                                        <a href="#">
+	                                            <img src="http://placehold.it/250x250" alt="Image" style="max-width:100%;">
+	                                        </a>
+	                                    </div>
+	                                </div>
+	                                <!--.row-->
+	                            </div>
+	                            <!--.item-->
+
+	                            <div class="carousel-item">
+	                                <div class="row">
+	                                    <div class="col-md-3">
+	                                        <a href="#">
+	                                            <img src="http://placehold.it/250x250" alt="Image" style="max-width:100%;">
+	                                        </a>
+	                                    </div>
+	                                    <div class="col-md-3">
+	                                        <a href="#">
+	                                            <img src="http://placehold.it/250x250" alt="Image" style="max-width:100%;">
+	                                        </a>
+	                                    </div>
+	                                    <div class="col-md-3">
+	                                        <a href="#">
+	                                            <img src="http://placehold.it/250x250" alt="Image" style="max-width:100%;">
+	                                        </a>
+	                                    </div>
+	                                    <div class="col-md-3">
+	                                        <a href="#">
+	                                            <img src="http://placehold.it/250x250" alt="Image" style="max-width:100%;">
+	                                        </a>
+	                                    </div>
+	                                </div>
+	                                <!--.row-->
+	                            </div>
+	                            <!--.item-->
+	                        </div>
+	                    </div>
+                    <!--.Carousel-->
+                	</div>
+				</div>
+			</div>
+		</section>
+		<section id="product-list">
+			<div class="container">
 				<div class="row">
-					<div class="col-md-12 titlebox">
-						TOP CATAGORIES
+					<div class="col-md-3">
+						
+					</div>
+					<div class="col-md-9">
+						<div class="col-xs-3 col-sm-3 col-md-3 col-lg-3">
+							<div class="thumbnail">
+								<img data-src="#" alt="">
+								<div class="caption">
+									<h3>Title</h3>
+									<p>
+										...
+									</p>
+									<p>
+										<a href="#" class="btn btn-primary">Action</a>
+										<a href="#" class="btn btn-default">Action</a>
+									</p>
+								</div>
+							</div>
+						</div>
 					</div>
 				</div>
-				<div class="row">
-					<p>Catagory Display here</p>
-				</div>
-					
-					
-				
 			</div>
 		</section>
 
@@ -131,5 +238,20 @@
 	<script src="js/jquery.js"></script>
 	<script src="fontawesome/js/all.js"></script>
 	<script src="bootstrap/js/bootstrap.js"></script>
+	<script>
+		$(document).ready(function() {
+    $('#myCarousel').carousel({
+	interval: 10000
+	})
+    
+    $('#myCarousel').on('slid.bs.carousel', function() {
+    	//alert("slid");
+	});
+    
+    
+});
+
+
+	</script>
 	</body>
 </html>
