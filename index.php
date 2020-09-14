@@ -203,26 +203,119 @@
 		</section>
 		<section id="product-list">
 			<div class="container">
+				<div class="row titlebox">
+						<div class="col-md-10">
+							Our Products
+						</div>
+						<div class="col-md-2 indecator">
+							
+						</div>
+					</div>
 				<div class="row">
 					<div class="col-md-3">
-						
+						<img src="img/sidebanner.jpg" alt="" width="100%">
 					</div>
 					<div class="col-md-9">
-						<div class="col-xs-3 col-sm-3 col-md-3 col-lg-3">
+						<div class="row">
+						<div class="col-xs-4 col-sm-4 col-md-4 col-lg-4" style="text-align: center;">
 							<div class="thumbnail">
-								<img data-src="#" alt="">
+								<img data-src="img/fryrice.jpg" src="img/fryrice.jpg" alt="" style="width: 100%">
 								<div class="caption">
-									<h3>Title</h3>
+									
+									<h5 style="text-align: center;">Fry Rice</h5>
+									<h5 style="text-align: center;">Rs. 250/-</h5>
 									<p>
-										...
-									</p>
-									<p>
-										<a href="#" class="btn btn-primary">Action</a>
-										<a href="#" class="btn btn-default">Action</a>
+										<a href="#" class="btn btn-success">View Detail</a>
+										<a href="#" class="btn btn-success">Order Now</a>
 									</p>
 								</div>
 							</div>
 						</div>
+						<div class="col-xs-4 col-sm-4 col-md-4 col-lg-4" style="text-align: center;">
+							<div class="thumbnail">
+								<img data-src="img/fryrice.jpg" src="img/fryrice.jpg" alt="" style="width: 100%">
+								<div class="caption">
+									
+									<h5 style="text-align: center;">Fry Rice</h5>
+									<h5 style="text-align: center;">Rs. 250/-</h5>
+									<p>
+										<a href="#" class="btn btn-primary">View Detail</a>
+										<a href="#" class="btn btn-primary">Order Now</a>
+									</p>
+								</div>
+							</div>
+						</div>
+						<div class="col-xs-4 col-sm-4 col-md-4 col-lg-4" style="text-align: center;">
+							<div class="thumbnail">
+								<img data-src="img/fryrice.jpg" src="img/fryrice.jpg" alt="" style="width: 100%">
+								<div class="caption">
+									
+									<h5 style="text-align: center;">Fry Rice</h5>
+									<h5 style="text-align: center;">Rs. 250/-</h5>
+									<p>
+										<a href="#" class="btn btn-primary">View Detail</a>
+										<a href="#" class="btn btn-primary">Order Now</a>
+									</p>
+								</div>
+							</div>
+						</div>
+						<div class="col-xs-4 col-sm-4 col-md-4 col-lg-4" style="text-align: center;">
+							<div class="thumbnail">
+								<img data-src="img/fryrice.jpg" src="img/fryrice.jpg" alt="" style="width: 100%">
+								<div class="caption">
+									
+									<h5 style="text-align: center;">Fry Rice</h5>
+									<h5 style="text-align: center;">Rs. 250/-</h5>
+									<p>
+										<a href="#" class="btn btn-primary">View Detail</a>
+										<a href="#" class="btn btn-primary">Order Now</a>
+									</p>
+								</div>
+							</div>
+						</div>
+						<div class="col-xs-4 col-sm-4 col-md-4 col-lg-4" style="text-align: center;">
+							<div class="thumbnail">
+								<img data-src="img/fryrice.jpg" src="img/fryrice.jpg" alt="" style="width: 100%">
+								<div class="caption">
+									
+									<h5 style="text-align: center;">Fry Rice</h5>
+									<h5 style="text-align: center;">Rs. 250/-</h5>
+									<p>
+										<a href="#" class="btn btn-primary">View Detail</a>
+										<a href="#" class="btn btn-primary">Order Now</a>
+									</p>
+								</div>
+							</div>
+						</div>
+						<div class="col-xs-4 col-sm-4 col-md-4 col-lg-4" style="text-align: center;">
+							<div class="thumbnail">
+								<img data-src="img/fryrice.jpg" src="img/fryrice.jpg" alt="" style="width: 100%">
+								<div class="caption">
+									
+									<h5 style="text-align: center;">Fry Rice</h5>
+									<h5 style="text-align: center;">Rs. 250/-</h5>
+									<p>
+										<a href="#" class="btn btn-primary">View Detail</a>
+										<a href="#" class="btn btn-primary">Order Now</a>
+									</p>
+								</div>
+							</div>
+						</div>
+						</div>
+
+					</div>
+				</div>
+			</div>
+		</section>
+		<section id="newsletter">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-6">
+						<h5>SINGN UP FOR NEWSLETTER</h5>
+						<h6>To subscribe Our Newsletter & Get coupons.</h6>
+					</div>
+					<div class="col-md-6">
+						<input type="text" placeholder="Your email Address">
 					</div>
 				</div>
 			</div>
