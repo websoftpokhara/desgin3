@@ -51,15 +51,17 @@
 						<i class="fas fa-list" style="color: #fff; margin-left: 5px;"></i>
 						<span style="color: #fff">TOP CATAGORIES</span>
 						</a>
-						<div style="position: absolute;z-index: 99999">
+						<div style="position: absolute;z-index: 99999; width: 100%">
 							<div class="collapse multi-collapse" id="multiCollapseExample1">
 						      <div class="card card-body">
 						        <div class="catagory-listing">
 						        	<ul>
-						        		<li><a href="">Catagory1</a></li>
-						        		<li><a href="">Catagory2</a></li>
-						        		<li><a href="">Catagory3</a></li>
-						        		<li><a href="">Catagory4</a></li>
+						        		<li style="border-bottom: 1px solid #ccc; text-align: left; line-height: 40px;"><a href="" style="color: #999; text-decoration: none;">Catagory1</a></li>
+						        		<li style="border-bottom: 1px solid #ccc; text-align: left; line-height: 40px;"><a href="" style="color: #999; text-decoration: none;">Catagory1</a></li>
+						        		<li style="border-bottom: 1px solid #ccc; text-align: left; line-height: 40px;"><a href="" style="color: #999; text-decoration: none;">Catagory1</a></li>
+						        		<li style="border-bottom: 1px solid #ccc; text-align: left; line-height: 40px;"><a href="" style="color: #999; text-decoration: none;">Catagory1</a></li>
+						        		<li style="border-bottom: 1px solid #ccc; text-align: left; line-height: 40px;"><a href="" style="color: #999; text-decoration: none;">Catagory1</a></li>
+						        		
 						        	</ul>
 						        </div>
 						      </div>
